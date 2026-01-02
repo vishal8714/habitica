@@ -47,6 +47,7 @@ import javax.crypto.SecretKey;
 @Component
 public class JwtUtil {
 
+
     private static final SecretKey SECRET_KEY =
             Keys.secretKeyFor(SignatureAlgorithm.HS256);
 
