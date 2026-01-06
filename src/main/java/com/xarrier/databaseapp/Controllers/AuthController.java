@@ -18,6 +18,8 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class AuthController {
 
+// nothing works
+
     private final AuthService authService;
     private final UserRepository userRepository;
     private final BCryptPasswordEncoder passwordEncoder;
